@@ -32,15 +32,14 @@
        />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonAddTrack"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
         android:text="ADD" />
 
     <ListView
-        tools:listitem="@layout/artist_list"
-        android:id="@+id/listViewArtist"
+        android:id="@+id/listViewTrack"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         />
