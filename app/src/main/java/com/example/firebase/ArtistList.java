@@ -30,7 +30,7 @@ public class ArtistList extends ArrayAdapter<Artist> {
     public View getView(int position,  View convertView, @NonNull ViewGroup parent) {
 
         LayoutInflater inflater = context.getLayoutInflater();
-        View ListItemView = inflater.inflate(R.layout.artist_list,null,true);
+        View ListItemView = inflater.inflate(R.layout.track_list,null,true);
 
         TextView tvName = (TextView) ListItemView.findViewById(R.id.TVName);
         TextView tvGenere = (TextView) ListItemView.findViewById(R.id.TVGenre);
